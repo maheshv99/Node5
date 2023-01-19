@@ -1,0 +1,19 @@
+{
+  "name": "node5",
+  "version": "1.0.0",
+  "description": "for implementing the chat application using the socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js",
+    "develop":"nodemon index.js"
+  },
+  "author": "Mahesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "socket-client": "^1.0.0",
+    "socket.io": "^4.5.4"
+  }
+}
